@@ -1,16 +1,32 @@
-# h_dapp
+# HIVE Appbase API
 
-A new Flutter project.
+This Flutter application provides access to the HIVE Appbase API, allowing users to interact with various features such as retrieving account information, accessing account history, and getting account details by key.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Get Account:** Retrieve account information.
+- **Get Account History:** Access account history.
+- **Get Account by Key:** Get account details by key.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository to your local machine.
+2. Ensure you have Flutter installed. If not, refer to the [Flutter documentation](https://flutter.dev/docs/get-started/install).
+3. Navigate to the project directory in your terminal.
+4. Run the app using the `flutter run` command.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- `flutter/material.dart`: Flutter's Material Design library.
+- `h_dapp/account_by_key.dart`: Module for getting account details by key.
+- `h_dapp/get_account.dart`: Module for retrieving account information.
+- `h_dapp/get_accoutn_history.dart`: Module for accessing account history.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
